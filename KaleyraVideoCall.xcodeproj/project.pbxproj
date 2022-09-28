@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6C691428DCDF2B0006ABC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C691328DCDF2B0006ABC4 /* AppDelegate.swift */; };
+		8F6C691628DCDF2B0006ABC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C691528DCDF2B0006ABC4 /* SceneDelegate.swift */; };
+		8F6C691D28DCDF2E0006ABC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C691C28DCDF2E0006ABC4 /* Assets.xcassets */; };
+		8F6C692028DCDF2E0006ABC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C691E28DCDF2E0006ABC4 /* LaunchScreen.storyboard */; };
+		8F6C692B28DCDF2F0006ABC4 /* KaleyraVideoCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C692A28DCDF2F0006ABC4 /* KaleyraVideoCallTests.swift */; };
+		8F6C693528DCDF2F0006ABC4 /* KaleyraVideoCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C693428DCDF2F0006ABC4 /* KaleyraVideoCallUITests.swift */; };
+		8F6C693728DCDF2F0006ABC4 /* KaleyraVideoCallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C693628DCDF2F0006ABC4 /* KaleyraVideoCallUITestsLaunchTests.swift */; };
+		8F6C697C28E439E40006ABC4 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C697B28E439E40006ABC4 /* ContactListViewController.swift */; };
+		8F6C698128E43B800006ABC4 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C698028E43B800006ABC4 /* ContactListView.swift */; };
+		8F6C698428E43CEC0006ABC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C698328E43CEC0006ABC4 /* Extensions.swift */; };
+		8F6C698A28E450E30006ABC4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C698928E450E30006ABC4 /* Contact.swift */; };
+		8F6C698E28E454120006ABC4 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C698D28E454120006ABC4 /* Alerts.swift */; };
+		8F6C699028E4554F0006ABC4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C698F28E4554F0006ABC4 /* Settings.swift */; };
+		8F6C699228E456AF0006ABC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C699128E456AF0006ABC4 /* LoginViewController.swift */; };
+		8F6C699428E456E50006ABC4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C699328E456E50006ABC4 /* LoginView.swift */; };
+		8F6C699628E458890006ABC4 /* ColorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C699528E458890006ABC4 /* ColorStore.swift */; };
+		8F6C699828E462420006ABC4 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C699728E462420006ABC4 /* ImageStore.swift */; };
+		8F6C699B28E465DD0006ABC4 /* MockApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C699A28E465DD0006ABC4 /* MockApi.swift */; };
+		8F6C699D28E46E580006ABC4 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C699C28E46E580006ABC4 /* Room.swift */; };
+		8F6C699F28E4702F0006ABC4 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C699E28E4702F0006ABC4 /* ConversationViewController.swift */; };
+		8F6C69A128E470AA0006ABC4 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C69A028E470AA0006ABC4 /* ConversationView.swift */; };
+		8F6C69A328E471160006ABC4 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C69A228E471160006ABC4 /* RoundButton.swift */; };
+		8F6C69A528E4720C0006ABC4 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C69A428E4720C0006ABC4 /* CameraView.swift */; };
+		8F6C69A728E4745F0006ABC4 /* RemoteUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C69A628E4745F0006ABC4 /* RemoteUserCollectionViewCell.swift */; };
+		8F6C69A928E49AB30006ABC4 /* AddContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C69A828E49AB30006ABC4 /* AddContactsViewController.swift */; };
+		8F6C69AB28E49ADF0006ABC4 /* AddContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C69AA28E49ADF0006ABC4 /* AddContactsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F6C692728DCDF2F0006ABC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F6C690828DCDF2B0006ABC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6C690F28DCDF2B0006ABC4;
+			remoteInfo = KaleyraVideoCall;
+		};
+		8F6C693128DCDF2F0006ABC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F6C690828DCDF2B0006ABC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6C690F28DCDF2B0006ABC4;
+			remoteInfo = KaleyraVideoCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F6C691028DCDF2B0006ABC4 /* KaleyraVideoCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaleyraVideoCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6C691328DCDF2B0006ABC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F6C691528DCDF2B0006ABC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F6C691C28DCDF2E0006ABC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F6C691F28DCDF2E0006ABC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F6C692128DCDF2E0006ABC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6C692628DCDF2F0006ABC4 /* KaleyraVideoCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaleyraVideoCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6C692A28DCDF2F0006ABC4 /* KaleyraVideoCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleyraVideoCallTests.swift; sourceTree = "<group>"; };
+		8F6C693028DCDF2F0006ABC4 /* KaleyraVideoCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaleyraVideoCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6C693428DCDF2F0006ABC4 /* KaleyraVideoCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleyraVideoCallUITests.swift; sourceTree = "<group>"; };
+		8F6C693628DCDF2F0006ABC4 /* KaleyraVideoCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleyraVideoCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F6C697B28E439E40006ABC4 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		8F6C698028E43B800006ABC4 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		8F6C698328E43CEC0006ABC4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F6C698928E450E30006ABC4 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		8F6C698D28E454120006ABC4 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		8F6C698F28E4554F0006ABC4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8F6C699128E456AF0006ABC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8F6C699328E456E50006ABC4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8F6C699528E458890006ABC4 /* ColorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStore.swift; sourceTree = "<group>"; };
+		8F6C699728E462420006ABC4 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		8F6C699A28E465DD0006ABC4 /* MockApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApi.swift; sourceTree = "<group>"; };
+		8F6C699C28E46E580006ABC4 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		8F6C699E28E4702F0006ABC4 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		8F6C69A028E470AA0006ABC4 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		8F6C69A228E471160006ABC4 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		8F6C69A428E4720C0006ABC4 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		8F6C69A628E4745F0006ABC4 /* RemoteUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F6C69A828E49AB30006ABC4 /* AddContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsViewController.swift; sourceTree = "<group>"; };
+		8F6C69AA28E49ADF0006ABC4 /* AddContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6C690D28DCDF2B0006ABC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6C692328DCDF2F0006ABC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6C692D28DCDF2F0006ABC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6C690728DCDF2B0006ABC4 = {
+			isa = PBXGroup;
+			children = (
+				8F6C691228DCDF2B0006ABC4 /* KaleyraVideoCall */,
+				8F6C692928DCDF2F0006ABC4 /* KaleyraVideoCallTests */,
+				8F6C693328DCDF2F0006ABC4 /* KaleyraVideoCallUITests */,
+				8F6C691128DCDF2B0006ABC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6C691128DCDF2B0006ABC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C691028DCDF2B0006ABC4 /* KaleyraVideoCall.app */,
+				8F6C692628DCDF2F0006ABC4 /* KaleyraVideoCallTests.xctest */,
+				8F6C693028DCDF2F0006ABC4 /* KaleyraVideoCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6C691228DCDF2B0006ABC4 /* KaleyraVideoCall */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C699928E465B80006ABC4 /* API */,
+				8F6C698828E450C60006ABC4 /* Model */,
+				8F6C697D28E439EB0006ABC4 /* UI */,
+				8F6C698228E43CCA0006ABC4 /* Utility */,
+				8F6C691328DCDF2B0006ABC4 /* AppDelegate.swift */,
+				8F6C691528DCDF2B0006ABC4 /* SceneDelegate.swift */,
+				8F6C691C28DCDF2E0006ABC4 /* Assets.xcassets */,
+				8F6C691E28DCDF2E0006ABC4 /* LaunchScreen.storyboard */,
+				8F6C692128DCDF2E0006ABC4 /* Info.plist */,
+			);
+			path = KaleyraVideoCall;
+			sourceTree = "<group>";
+		};
+		8F6C692928DCDF2F0006ABC4 /* KaleyraVideoCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C692A28DCDF2F0006ABC4 /* KaleyraVideoCallTests.swift */,
+			);
+			path = KaleyraVideoCallTests;
+			sourceTree = "<group>";
+		};
+		8F6C693328DCDF2F0006ABC4 /* KaleyraVideoCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C693428DCDF2F0006ABC4 /* KaleyraVideoCallUITests.swift */,
+				8F6C693628DCDF2F0006ABC4 /* KaleyraVideoCallUITestsLaunchTests.swift */,
+			);
+			path = KaleyraVideoCallUITests;
+			sourceTree = "<group>";
+		};
+		8F6C697D28E439EB0006ABC4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C697E28E43B440006ABC4 /* View controllers */,
+				8F6C697F28E43B520006ABC4 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8F6C697E28E43B440006ABC4 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C697B28E439E40006ABC4 /* ContactListViewController.swift */,
+				8F6C699128E456AF0006ABC4 /* LoginViewController.swift */,
+				8F6C699E28E4702F0006ABC4 /* ConversationViewController.swift */,
+				8F6C69A828E49AB30006ABC4 /* AddContactsViewController.swift */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		8F6C697F28E43B520006ABC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C698028E43B800006ABC4 /* ContactListView.swift */,
+				8F6C699328E456E50006ABC4 /* LoginView.swift */,
+				8F6C69A028E470AA0006ABC4 /* ConversationView.swift */,
+				8F6C69A228E471160006ABC4 /* RoundButton.swift */,
+				8F6C69A428E4720C0006ABC4 /* CameraView.swift */,
+				8F6C69A628E4745F0006ABC4 /* RemoteUserCollectionViewCell.swift */,
+				8F6C69AA28E49ADF0006ABC4 /* AddContactsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F6C698228E43CCA0006ABC4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C698328E43CEC0006ABC4 /* Extensions.swift */,
+				8F6C698D28E454120006ABC4 /* Alerts.swift */,
+				8F6C698F28E4554F0006ABC4 /* Settings.swift */,
+				8F6C699528E458890006ABC4 /* ColorStore.swift */,
+				8F6C699728E462420006ABC4 /* ImageStore.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8F6C698828E450C60006ABC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C698928E450E30006ABC4 /* Contact.swift */,
+				8F6C699C28E46E580006ABC4 /* Room.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F6C699928E465B80006ABC4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C699A28E465DD0006ABC4 /* MockApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6C690F28DCDF2B0006ABC4 /* KaleyraVideoCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6C693A28DCDF2F0006ABC4 /* Build configuration list for PBXNativeTarget "KaleyraVideoCall" */;
+			buildPhases = (
+				8F6C690C28DCDF2B0006ABC4 /* Sources */,
+				8F6C690D28DCDF2B0006ABC4 /* Frameworks */,
+				8F6C690E28DCDF2B0006ABC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaleyraVideoCall;
+			productName = KaleyraVideoCall;
+			productReference = 8F6C691028DCDF2B0006ABC4 /* KaleyraVideoCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F6C692528DCDF2F0006ABC4 /* KaleyraVideoCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6C693D28DCDF2F0006ABC4 /* Build configuration list for PBXNativeTarget "KaleyraVideoCallTests" */;
+			buildPhases = (
+				8F6C692228DCDF2F0006ABC4 /* Sources */,
+				8F6C692328DCDF2F0006ABC4 /* Frameworks */,
+				8F6C692428DCDF2F0006ABC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6C692828DCDF2F0006ABC4 /* PBXTargetDependency */,
+			);
+			name = KaleyraVideoCallTests;
+			productName = KaleyraVideoCallTests;
+			productReference = 8F6C692628DCDF2F0006ABC4 /* KaleyraVideoCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F6C692F28DCDF2F0006ABC4 /* KaleyraVideoCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6C694028DCDF2F0006ABC4 /* Build configuration list for PBXNativeTarget "KaleyraVideoCallUITests" */;
+			buildPhases = (
+				8F6C692C28DCDF2F0006ABC4 /* Sources */,
+				8F6C692D28DCDF2F0006ABC4 /* Frameworks */,
+				8F6C692E28DCDF2F0006ABC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F6C693228DCDF2F0006ABC4 /* PBXTargetDependency */,
+			);
+			name = KaleyraVideoCallUITests;
+			productName = KaleyraVideoCallUITests;
+			productReference = 8F6C693028DCDF2F0006ABC4 /* KaleyraVideoCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6C690828DCDF2B0006ABC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8F6C690F28DCDF2B0006ABC4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8F6C692528DCDF2F0006ABC4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8F6C690F28DCDF2B0006ABC4;
+					};
+					8F6C692F28DCDF2F0006ABC4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8F6C690F28DCDF2B0006ABC4;
+					};
+				};
+			};
+			buildConfigurationList = 8F6C690B28DCDF2B0006ABC4 /* Build configuration list for PBXProject "KaleyraVideoCall" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F6C690728DCDF2B0006ABC4;
+			productRefGroup = 8F6C691128DCDF2B0006ABC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6C690F28DCDF2B0006ABC4 /* KaleyraVideoCall */,
+				8F6C692528DCDF2F0006ABC4 /* KaleyraVideoCallTests */,
+				8F6C692F28DCDF2F0006ABC4 /* KaleyraVideoCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F6C690E28DCDF2B0006ABC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6C692028DCDF2E0006ABC4 /* LaunchScreen.storyboard in Resources */,
+				8F6C691D28DCDF2E0006ABC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6C692428DCDF2F0006ABC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6C692E28DCDF2F0006ABC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6C690C28DCDF2B0006ABC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6C699228E456AF0006ABC4 /* LoginViewController.swift in Sources */,
+				8F6C698A28E450E30006ABC4 /* Contact.swift in Sources */,
+				8F6C699F28E4702F0006ABC4 /* ConversationViewController.swift in Sources */,
+				8F6C69A528E4720C0006ABC4 /* CameraView.swift in Sources */,
+				8F6C699D28E46E580006ABC4 /* Room.swift in Sources */,
+				8F6C698428E43CEC0006ABC4 /* Extensions.swift in Sources */,
+				8F6C699028E4554F0006ABC4 /* Settings.swift in Sources */,
+				8F6C697C28E439E40006ABC4 /* ContactListViewController.swift in Sources */,
+				8F6C69A128E470AA0006ABC4 /* ConversationView.swift in Sources */,
+				8F6C691428DCDF2B0006ABC4 /* AppDelegate.swift in Sources */,
+				8F6C691628DCDF2B0006ABC4 /* SceneDelegate.swift in Sources */,
+				8F6C698E28E454120006ABC4 /* Alerts.swift in Sources */,
+				8F6C699428E456E50006ABC4 /* LoginView.swift in Sources */,
+				8F6C699628E458890006ABC4 /* ColorStore.swift in Sources */,
+				8F6C698128E43B800006ABC4 /* ContactListView.swift in Sources */,
+				8F6C69A328E471160006ABC4 /* RoundButton.swift in Sources */,
+				8F6C69AB28E49ADF0006ABC4 /* AddContactsView.swift in Sources */,
+				8F6C699B28E465DD0006ABC4 /* MockApi.swift in Sources */,
+				8F6C69A928E49AB30006ABC4 /* AddContactsViewController.swift in Sources */,
+				8F6C699828E462420006ABC4 /* ImageStore.swift in Sources */,
+				8F6C69A728E4745F0006ABC4 /* RemoteUserCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6C692228DCDF2F0006ABC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6C692B28DCDF2F0006ABC4 /* KaleyraVideoCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6C692C28DCDF2F0006ABC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6C693728DCDF2F0006ABC4 /* KaleyraVideoCallUITestsLaunchTests.swift in Sources */,
+				8F6C693528DCDF2F0006ABC4 /* KaleyraVideoCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F6C692828DCDF2F0006ABC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F6C690F28DCDF2B0006ABC4 /* KaleyraVideoCall */;
+			targetProxy = 8F6C692728DCDF2F0006ABC4 /* PBXContainerItemProxy */;
+		};
+		8F6C693228DCDF2F0006ABC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F6C690F28DCDF2B0006ABC4 /* KaleyraVideoCall */;
+			targetProxy = 8F6C693128DCDF2F0006ABC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F6C691E28DCDF2E0006ABC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6C691F28DCDF2E0006ABC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F6C693828DCDF2F0006ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F6C693928DCDF2F0006ABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6C693B28DCDF2F0006ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KaleyraVideoCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argon.KaleyraVideoCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8F6C693C28DCDF2F0006ABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KaleyraVideoCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argon.KaleyraVideoCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8F6C693E28DCDF2F0006ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argon.KaleyraVideoCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaleyraVideoCall.app/KaleyraVideoCall";
+			};
+			name = Debug;
+		};
+		8F6C693F28DCDF2F0006ABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argon.KaleyraVideoCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaleyraVideoCall.app/KaleyraVideoCall";
+			};
+			name = Release;
+		};
+		8F6C694128DCDF2F0006ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argon.KaleyraVideoCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaleyraVideoCall;
+			};
+			name = Debug;
+		};
+		8F6C694228DCDF2F0006ABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXWVL754BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argon.KaleyraVideoCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaleyraVideoCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6C690B28DCDF2B0006ABC4 /* Build configuration list for PBXProject "KaleyraVideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6C693828DCDF2F0006ABC4 /* Debug */,
+				8F6C693928DCDF2F0006ABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6C693A28DCDF2F0006ABC4 /* Build configuration list for PBXNativeTarget "KaleyraVideoCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6C693B28DCDF2F0006ABC4 /* Debug */,
+				8F6C693C28DCDF2F0006ABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6C693D28DCDF2F0006ABC4 /* Build configuration list for PBXNativeTarget "KaleyraVideoCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6C693E28DCDF2F0006ABC4 /* Debug */,
+				8F6C693F28DCDF2F0006ABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6C694028DCDF2F0006ABC4 /* Build configuration list for PBXNativeTarget "KaleyraVideoCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6C694128DCDF2F0006ABC4 /* Debug */,
+				8F6C694228DCDF2F0006ABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F6C690828DCDF2B0006ABC4 /* Project object */;
+}
