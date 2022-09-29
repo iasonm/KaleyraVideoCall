@@ -103,6 +103,9 @@ class ContactListViewController: UIViewController {
         guard !selectedContacts.isEmpty else { return }
         let vc = ConversationViewController()
         vc.contacts = selectedContacts
+        vc.callEnded = {
+            self.selectedContactIds = [:]
+        }
         navigationController?.pushViewController(vc, animated: true)
     }
 }

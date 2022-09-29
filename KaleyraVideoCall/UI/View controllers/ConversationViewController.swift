@@ -9,6 +9,8 @@ import UIKit
 
 class ConversationViewController: UIViewController {
     
+    var callEnded: (() -> Void)?
+    
     var contacts = [Contact]()
     var room: Room?
     
@@ -59,6 +61,8 @@ class ConversationViewController: UIViewController {
     }
     
     @objc func hangUpButtonTapped() {
+        room?.disconnect()
+        callEnded?()
         navigationController?.popViewController(animated: true)
     }
     

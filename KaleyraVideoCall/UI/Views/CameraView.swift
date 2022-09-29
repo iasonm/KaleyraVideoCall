@@ -15,6 +15,8 @@ class CameraView: UIView {
     var input: AVCaptureDeviceInput?
     var prevLayer: AVCaptureVideoPreviewLayer?
     
+    var noCameraImageView: UIImageView = UIImageView(image: ImageStore.noCameraIcon.image)
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -25,6 +27,7 @@ class CameraView: UIView {
     
     func createSession() {
         guard let device = AVCaptureDevice.default(.builtInWideAngleCamera, for: AVMediaType.video, position: .front) else {
+            showNoCamera()
             return
         }
         session = AVCaptureSession()
@@ -76,6 +79,18 @@ class CameraView: UIView {
         default:
             return .portrait
         }
+    }
+    
+    func showNoCamera() {
+        addSubviews([noCameraImageView])
+        let constraints = [
+            noCameraImageView.topAnchor.constraint(equalTo: topAnchor),
+            noCameraImageView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            noCameraImageView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            noCameraImageView.trailingAnchor.constraint(equalTo: trailingAnchor),
+        ]
+        
+        NSLayoutConstraint.activate(constraints)
     }
 
 }

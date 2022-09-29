@@ -9,7 +9,7 @@ import UIKit
 
 enum ImageStore {
     
-    case callIcon, personCircle, phoneDownIcon, videoIcon, micIcon, micSlashIcon, videoOffIcon, waveform
+    case callIcon, personCircle, phoneDownIcon, videoIcon, micIcon, micSlashIcon, videoOffIcon, waveform, noCameraIcon
     
     var image: UIImage {
         switch self {
@@ -21,6 +21,7 @@ enum ImageStore {
         case .micSlashIcon: return UIImage(named: "micSlashIcon")!
         case .videoOffIcon: return UIImage(named: "videoSlashIcon")!
         case .waveform: return UIImage(named: "waveform")!
+        case .noCameraIcon: return UIImage(named: "noCameraIcon")!
         }
     }
     

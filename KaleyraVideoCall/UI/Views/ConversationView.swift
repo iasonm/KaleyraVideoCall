@@ -58,6 +58,9 @@ class ConversationView: UIView {
         collectionView.backgroundColor = UIColor.lightGray
         collectionView.register(RemoteUserCollectionViewCell.self, forCellWithReuseIdentifier: RemoteUserCollectionViewCell.identifier)
         
+        cameraView.layer.cornerRadius = 10
+        cameraView.layer.masksToBounds = true
+        
         NSLayoutConstraint.activate([
             toolbarView.bottomAnchor.constraint(equalTo: bottomAnchor),
             toolbarView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.16),
